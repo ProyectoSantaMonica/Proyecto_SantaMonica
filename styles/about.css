@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/img/about/elBackgroundjpg.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main{
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "cuerpo cuerpo cuerpo cuerpo costado"
+    "cuerpo cuerpo cuerpo cuerpo costado";
+}
+
+.cuerpo{
+    grid-area: "cuerpo";
+}
+
+.costado{
+    grid-area: "costado";
+}
+
+.costado img{
+    height: 250px;
+}
+
+.container .fotoequipo{
+    height: 200px;
+    width: 240px;
+}
+
+.container{
+    backdrop-filter: blur(2px);
+}
+
+@media(max-width: 740px) {
+    .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+
+}
