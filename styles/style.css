@@ -1,8 +1,19 @@
 #body {
-    background-color: #ccc3a4;
+    background-color: #DFDFDF;
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+}
+
+#principal {
+    background-image: url(../assets/img/index/Background_Kratos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.card-body span {
+    color: #812629;
 }
 
 #nav-buttons li a {
@@ -11,9 +22,9 @@
 
 #nav-buttons li a:hover {
     transform: scale(1.2);
-    color: #82242c;
+    color: #B22128;
 }
 
 #redes .nav-link i {
-    color: #82242c;
+    color: #812629;
 }
