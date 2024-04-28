@@ -1,4 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-image: url(../assets/img/services/fondoservices.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 100px 200px 150px 300px rgb(0, 0, 0, 0.5);
+}
+
+@font-face{
+    font-family: "GodOfwar";
+    src: url(../assets/fuentes/GODOFWAR.TTF);
+    font-weight: bold;
+    font-style: bold;
+}
+
+h3{
+    color: #FAA307;
+    font-size: 28px;
+}
+
+h2{
+    color: #D90429;
+}
+
+
+main{
+    font-family: "GodOfwar";
+}
+
+.textos h5{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.textos p{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.textos button{
+    margin-left: 15px;
+}
+
+.coleccion h5{
+    color: #D00000;
+}
+
+.coleccion p{
+    color: whitesmoke;
+}
 
 
 
@@ -15,4 +74,15 @@
 
 #redes .nav-link i {
     color: #82242c;
+}
+
+@media(max-width: 740px) {
+    .logotipos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
