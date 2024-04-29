@@ -18,8 +18,19 @@
     background-repeat: no-repeat;
 }
 
+#cards-container {
+    background-color:white;
+    width: 100%;
+}
+
 #main-2 {
     background-image: url(../assets/img/index/main_row_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bot-trailer {
+    background-image: url(../assets/img/index/backgroundTriler2.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }

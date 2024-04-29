@@ -39,20 +39,20 @@
             </article>
         </nav>
     </header>
-    <main class="container-fluid">
+    <main class="container-fluid p-0">
         <!-- Head content -->
-        <article id="topTriler" class="container">
-            <video class="col-12 col-md-8 my-2" controls width="720">
+        <article id="topTriler" class="col-12">
+            <video class="col-12 col-md-8 m-3" autoplay controls width="720">
                 <source src="../assets/video/index/GoW_Trailer.mp4" type="video/mp4">
             </video>
         </article>
         <!-- Main row 1 -->
-        <article id="main-1" class="row align-items-end col-12 container-fluid p-0" style="width: 100vw; height: 100vh;">
+        <article id="main-1" class="col-12 d-flex align-items-end p-0" style="width: 100vw; height: 100vh;">
             <img class="p-0" src="../assets/img/index/cut-bot.svg" alt="">
         </article>
         <!-- Primera seccion principal -->
-        <div class="container row">
-            <article class="card col-md-6 mb-3">
+        <div id="cards-container" class="d-flex justify-content-evenly aling-content-center">
+            <article class="card col-md-5 p-0 justify-content-center aling-content-center">
                 <div class="row g-0 shadow">
                     <section class="col-md-4">
                         <img src="../assets/img/index/cardAtreusKratos.jpg" class="img-fluid rounded" alt="...">
@@ -67,9 +67,9 @@
                     </section>
                 </div>
             </article>
-            <article class="card col-md-6 mb-3">
+            <article class="card col-md-5 p-0 justify-content-center aling-content-center">
                 <div class="row g-0 shadow">
-                    <section class="col-md-7">
+                    <section class="col-md-8">
                         <div class="card-body text-center">
                             <h5 class="card-title">Enfrentate a nuestras
                                 <br><span class="fw-bolder">peores criaturas</span>
@@ -79,19 +79,19 @@
                             </p>
                         </div>
                     </section>
-                    <section class="col-md-5">
+                    <section class="col-md-4">
                         <img src="../assets/img/index/cardGhoul.webp" class="img-fluid rounded" alt="...">
                     </section>
                 </div>
             </article>
         </div>
         <!-- Main row 2 -->
-        <article id="main-2" class="row align-items-start col-12 container-fluid p-0" style="width: 100vw; height: 100vh;">
+        <article id="main-2" class="col-12 align-items-start p-0" style="width: 100vw; height: 100vh;">
             <img class="p-0" src="../assets/img/index/cut-top.svg" alt="">
         </article>
         <!-- Segunda seccion Principal -->
-        <article id="bot-trailer" class="d-flex justify-content-center my-3">
-            <video class="col-12 col-md-8 my-2" controls>
+        <article id="bot-trailer" class="col-12 d-flex justify-content-center">
+            <video class="col-12 col-md-8 my-3" autoplay controls>
                 <source src="../assets/video/index/GoW_Ragnarok_Trailer.mp4" type="video/mp4">
             </video>
         </article>
@@ -116,22 +116,22 @@
                 <ul id="redes" class="nav col-12 d-flex justify-content-center">
                     <h4 class="m-3">..Siguenos en</h4>
                     <li class="nav-link m-2">
-                        <a href="nav-link" target="_blank" href="https://twitter.com/SonySantaMonica">
+                        <a src="nav-link" target="_blank" href="https://twitter.com/SonySantaMonica">
                             <i class="fa-brands fa-x-twitter fa-2x"></i>
                         </a>
                     </li>
                     <li class="nav-link m-2">
-                        <a href="nav-link" target="_blank" href="https://www.facebook.com/santamonicastudio">
+                        <a src="nav-link" target="_blank" href="https://www.facebook.com/santamonicastudio">
                             <i class="fa-brands fa-facebook fa-2x"></i>
                         </a>
                     </li>
                     <li class="nav-link m-2">
-                        <a href="nav-link" target="_blank" href="https://www.instagram.com/santamonicastudio/">
+                        <a src="nav-link" target="_blank" href="https://www.instagram.com/santamonicastudio/">
                             <i class="fa-brands fa-instagram fa-2x"></i>
                         </a>
                     </li>
                     <li class="nav-link m-2">
-                        <a href="nav-link" target="_blank"
+                        <a src="nav-link" target="_blank"
                             href="https://www.youtube.com/channel/UCfNRCubwLjsEAQG2TiJq4kQ">
                             <i class="fa-brands fa-youtube fa-2x"></i>
                         </a>
@@ -148,5 +148,4 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
