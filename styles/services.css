@@ -45,6 +45,7 @@ main{
     margin-top: 20px;
     margin-left: 15px;
     margin-bottom: 20px;
+    backdrop-filter: blur(0.4rem);
 }
 
 .textos button{
